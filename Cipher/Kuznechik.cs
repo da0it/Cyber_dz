@@ -23,11 +23,11 @@ namespace Cyber_dz.Cipher
 
             return $"{BitConverter.ToString(encriptBlok).Replace("-", "")}"; // Заглушка
         }
-        public static string KuznechikDecrypt(string text)
+        public static string KuznechikDecrypt(byte[] str)
         {
             //Генерация раундовых ключей
             GOST_Kuz_Expand_Key(key_1, key_2);
-            byte[] decriptBlok = GOST_Kuz_Decrypt(Convert.FromHexString(text));
+            byte[] decriptBlok = GOST_Kuz_Decrypt(str);
             Console.WriteLine(BitConverter.ToString(decriptBlok).Replace("-", ""));
             return $"{BitConverter.ToString(decriptBlok).Replace("-", "")} Расшифровано с помощью кузнечика"; // Заглушка
         }
