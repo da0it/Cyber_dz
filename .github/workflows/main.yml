@@ -42,15 +42,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Fetch all branches
-        run: git fetch --all
-
-      - name: Checkout main branch
-        run: git checkout origin/main
-
-      - name: Merge PR manually
+      - name: Fetch the PR merge reference
         run: |
-          git fetch origin +refs/pull/${{ github.event.pull_request.number }}/merge:refs/remotes/origin/merge-pr
-          git checkout origin/main
+        git fetch origin +refs/pull/${{ github.event.pull_request.number }}/merge:refs/remotes/origin/merge-pr
+
+      - name: Checkout PR merge reference
+        run: git checkout refs/remotes/origin/merge-pr
+
+      - name: Merge PR into main
+        run: |
+          git fetch origin main
+          git checkout main
           git merge --no-ff --commit --message "Merged by GitHub Actions"
           git push origin main
