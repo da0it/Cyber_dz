@@ -44,7 +44,7 @@ jobs:
 
       - name: Fetch the PR merge reference
         run: |
-        git fetch origin +refs/pull/${{ github.event.pull_request.number }}/merge:refs/remotes/origin/merge-pr
+          git fetch origin +refs/pull/${{ github.event.pull_request.number }}/merge:refs/remotes/origin/merge-pr
 
       - name: Checkout PR merge reference
         run: git checkout refs/remotes/origin/merge-pr
