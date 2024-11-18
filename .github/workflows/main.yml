@@ -26,4 +26,17 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Run tests
-        run: dotnet test --configuration Release --no-build --verbosity normal	   
+        run: dotnet test --configuration Release --no-build --verbosity normal
+    
+    merge:
+    runs-on: ubuntu-latest
+    needs: build
+    if: ${{ github.event.pull_request.merged == false && github.event.action == 'synchronize' }}
+    
+    steps:
+      - name: Merge PR
+        uses: "da0it/merge-pull-request@v3"
+        with:
+          pull-request-number: ${{ github.event.pull_request.number }}
+          commit-message: "Merged by GitHub Actions"
+          merge-method: "squash
