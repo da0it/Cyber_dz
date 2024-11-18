@@ -16,7 +16,7 @@ namespace Cyber_dz.Cipher
 
         public static void testFunc()
         {
-
+            string fortest = "test1";
         }
 
 
