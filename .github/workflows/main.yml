@@ -1,28 +1,37 @@
-name: CI Workflow
+name: CI - Workflow to run tests
 
 on:
   push:
     branches:
-      - main 
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Check out repository code
         uses: actions/checkout@v2
 
       - name: Set up .NET
-        uses: actions/setup-dotnet@v2
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '8.0.403'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore ./Cyber_dz.sln  # Adjust the path to your solution file
 
-      - name: Build project
-        run: dotnet build --configuration Release
+      - name: Build the solution
+        run: dotnet build ./Cyber_dz.sln --configuration Release --no-restore
 
-      - name: Run tests
-        run: dotnet test --configuration Release --no-build --verbosity normal	   
+      - name: Run unit tests
+        run: dotnet test ./Cyber_dz.tests/Cyber_dz.tests.csproj --configuration Release --no-build --logger "trx;LogFileName=TestResults.trx"
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v3
+        with:
+          name: TestResults
+          path: TestResults.trx  # Adjust the path if necessary
