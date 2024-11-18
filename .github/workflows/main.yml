@@ -39,4 +39,4 @@ jobs:
         with:
           pull-request-number: ${{ github.event.pull_request.number }}
           commit-message: "Merged by GitHub Actions"
-          merge-method: "squash
+          merge-method: "squash"
