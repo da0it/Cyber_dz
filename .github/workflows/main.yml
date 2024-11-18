@@ -28,7 +28,7 @@ jobs:
         run: dotnet build ./Cyber_dz.sln --configuration Release --no-restore
 
       - name: Run unit tests
-        run: dotnet test ./Cyber_dz.tests/Cyber_dz.tests.csproj --configuration Release --no-build --logger "trx;LogFileName=TestResults.trx"
+        run: dotnet test ./Cyber_dz.tests/Kuznechik_test.cs --configuration Release --no-build --logger "trx;LogFileName=TestResults.trx"
 
       - name: Upload test results
         uses: actions/upload-artifact@v3
