@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - main 
+      - development
+  pull_request:
+    branches:
+      - main
 
 jobs:
   build:
@@ -25,4 +29,34 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Run tests
-        run: dotnet test --configuration Release --no-build --verbosity normal	   
+        run: dotnet test --configuration Release --no-build --verbosity normal
+
+  merge-development-to-main:
+    runs-on: ubuntu-latest
+    needs: build
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Checkout main branch
+        run: git checkout main
+
+      - name: Merge development into main
+        run: |
+          git merge origin/development --no-ff --commit --message "Merged development into main via GitHub Actions" --allow-unrelated-histories
+
+      - name: Push changes to main
+        run: git push origin main
+  
