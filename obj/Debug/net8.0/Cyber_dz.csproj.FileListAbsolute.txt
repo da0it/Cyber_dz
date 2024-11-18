@@ -29,3 +29,9 @@ D:\Cyber_dz\obj\Debug\net8.0\refint\Cyber_dz.dll
 D:\Cyber_dz\obj\Debug\net8.0\Cyber_dz.pdb
 D:\Cyber_dz\obj\Debug\net8.0\Cyber_dz.genruntimeconfig.cache
 D:\Cyber_dz\obj\Debug\net8.0\ref\Cyber_dz.dll
+D:\Cyber_dz\bin\Debug\net8.0\xunit.abstractions.dll
+D:\Cyber_dz\bin\Debug\net8.0\xunit.assert.dll
+D:\Cyber_dz\bin\Debug\net8.0\xunit.core.dll
+D:\Cyber_dz\bin\Debug\net8.0\xunit.execution.dotnet.dll
+D:\Cyber_dz\obj\Debug\net8.0\Cyber_dz.csproj.AssemblyReference.cache
+D:\Cyber_dz\obj\Debug\net8.0\Cyber_dz.csproj.Up2Date
