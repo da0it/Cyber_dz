@@ -17,5 +17,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\nikul\.nuget\packages\xunit.analyzers\1.16.0</Pkgxunit_analyzers>
+    <PkgMicrosoft_TestPlatform Condition=" '$(PkgMicrosoft_TestPlatform)' == '' ">C:\Users\nikul\.nuget\packages\microsoft.testplatform\17.11.1</PkgMicrosoft_TestPlatform>
   </PropertyGroup>
 </Project>
