@@ -55,7 +55,7 @@ jobs:
 
       - name: Merge development into main
         run: |
-          git merge development --no-ff --commit --message "Merged development into main via GitHub Actions"
+          git merge development --no-ff --commit --message "Merged development into main via GitHub Actions" --allow-unrelated-histories
 
       - name: Push changes to main
         run: git push origin main
