@@ -1,5 +1,7 @@
 ﻿using Xunit;
 using Cyber_dz.Cipher;
+using Microsoft.VisualStudio.TestPlatform;
+using Microsoft.VisualStudio;
 
 namespace Cyber_dz.tests
 {

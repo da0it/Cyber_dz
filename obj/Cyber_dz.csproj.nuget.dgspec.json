@@ -48,11 +48,15 @@
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[2.2.8, )"
+              "version": "[3.6.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[3.6.3, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.0.0, )"
+              "version": "[17.11.1, )"
             },
             "Microsoft.TestPlatform": {
               "target": "Package",
