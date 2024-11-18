@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Cyber_dz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17c22c21648f139ad1cf93595fc5fc50c3afaa80")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db3f98ca2ad3dbaa33624bc35d5da74c8f6402c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Cyber_dz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Cyber_dz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
