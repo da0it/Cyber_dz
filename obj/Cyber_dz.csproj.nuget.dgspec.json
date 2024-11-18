@@ -50,6 +50,14 @@
               "target": "Package",
               "version": "[17.11.1, )"
             },
+            "Microsoft.TestPlatform.Build": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"

@@ -35,3 +35,4 @@ D:\Cyber_dz\bin\Debug\net8.0\xunit.core.dll
 D:\Cyber_dz\bin\Debug\net8.0\xunit.execution.dotnet.dll
 D:\Cyber_dz\obj\Debug\net8.0\Cyber_dz.csproj.AssemblyReference.cache
 D:\Cyber_dz\obj\Debug\net8.0\Cyber_dz.csproj.Up2Date
+D:\Cyber_dz\bin\Debug\net8.0\Newtonsoft.Json.dll

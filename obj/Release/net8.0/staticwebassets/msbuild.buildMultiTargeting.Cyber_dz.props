@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Cyber_dz.props" />
+</Project>
