@@ -38,7 +38,7 @@ jobs:
     
     steps:
       - name: Merge PR
-        uses: "peter-evans/merge-pull-request@v3"
+        uses: "da0it/merge-pull-request@v3"
         with:
           pull-request-number: ${{ github.event.pull_request.number }}
           commit-message: "Merged by GitHub Actions"
