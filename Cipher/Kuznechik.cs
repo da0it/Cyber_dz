@@ -14,6 +14,11 @@ namespace Cyber_dz.Cipher
         //static byte[] blk = System.Convert.FromHexString("1122334455667700ffeeddccbbaa9988");
         // { 0x88, 0x99, 0xAA, 0xBB, 0xCC, 0xDD, 0xEE, 0xFF, 0x00, 0x77, 0x66, 0x55, 0x44, 0x33, 0x22, 0x11 }
 
+        public static void testFunc()
+        {
+
+        }
+
 
         public static string KuznechikEncrypt(byte[] str)
         {
