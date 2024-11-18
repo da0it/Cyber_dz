@@ -35,14 +35,22 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     if: ${{ github.event.pull_request.merged == false && github.event.action == 'synchronize' }}
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Checkout main branch
+        run: git checkout origin/main
+
       - name: Merge PR manually
         run: |
           git fetch origin +refs/pull/${{ github.event.pull_request.number }}/merge:refs/remotes/origin/merge-pr
-          git checkout main
+          git checkout origin/main
           git merge --no-ff --commit --message "Merged by GitHub Actions"
           git push origin main
