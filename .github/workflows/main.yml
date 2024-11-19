@@ -34,6 +34,7 @@ jobs:
   merge-development-to-main:
     runs-on: ubuntu-latest
     needs: build
+    if: github.ref == 'refs/heads/development'
 
     permissions:
       contents: write
