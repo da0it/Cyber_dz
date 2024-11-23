@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Cipher\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.1" />
     <PackageReference Include="Microsoft.TestPlatform" Version="17.11.1" />
     <PackageReference Include="Microsoft.TestPlatform.Build" Version="17.11.1" />

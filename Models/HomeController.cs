@@ -1,13 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Globalization;
-
-namespace Cyber_dz.Models
+﻿namespace Cyber_dz.Models
 {
-    public class EncryptionDecryptionModel
+    public class EncryptionModel
     {
-        public string Input { get; set; }
-        public string EncryptedString { get; set; }
-        public string StringToDecrypt { get; set; }
-        public string DecryptedString { get; set; }
+        public string InputText { get; set; }
+        public string EncryptedText { get; set; }
+        public string DecryptedText { get; set; }
+        public int CipherType { get; set; } // 1, 2 или 3 для выбора шифра
     }
 }

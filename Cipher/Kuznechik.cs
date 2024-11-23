@@ -19,6 +19,40 @@ namespace Cyber_dz.Cipher
             string fortest = "test1";
         }
 
+        public static string EncryptGrassHopper2(string text)
+        {
+            byte[] result;
+            result = System.Convert.FromHexString(text);
+            byte[] padded_text = PaddArray(result);
+            Array.Reverse(padded_text);
+            string out_data = Cipher.Kuznechik.KuznechikEncrypt(padded_text);
+            return out_data;
+        }
+
+        public static string DecryptGrassHopper2(string text)
+        {
+            byte[] toDecrypt = System.Convert.FromHexString(text);
+            Array.Reverse(toDecrypt);
+            string decrypted_string = Kuznechik.KuznechikDecrypt(toDecrypt);
+            byte[] decrypted_string_unreversed = System.Convert.FromHexString(decrypted_string);
+            Array.Reverse(decrypted_string_unreversed);
+            string decrypted_string_reversed = BitConverter.ToString(decrypted_string_unreversed);
+            return decrypted_string_reversed.Replace("-", "");
+        }
+
+        static public int zeros = 0;
+        static byte[] PaddArray(byte[] bytes)
+        {
+            if (bytes.Length < 16)
+            {
+                zeros += 1;
+                byte[] paddedBytes = new byte[16];
+                Array.Copy(bytes, paddedBytes, bytes.Length);
+                return paddedBytes;
+            }
+            return bytes;
+        }
+
 
         public static string KuznechikEncrypt(byte[] str)
         {
