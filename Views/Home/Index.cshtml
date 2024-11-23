@@ -1,4 +1,4 @@
-﻿@model Cyber_dz.Models.EncryptionModel
+﻿@model Cyber_dz.Models.EncryptionDecryptionModel
 
 @{
     ViewBag.Title = "Kuz encryption test";
@@ -6,20 +6,44 @@
 
 <h2>Kuznechik Encryption</h2>
 
-@using (Html.BeginForm("Index", "Home", FormMethod.Post))
-{
-    <div>
-        <label for="input">Введите строку для шифрования:</label>
-        @Html.TextBoxFor(m => m.Input, new { id = "input" })
-        <button type="submit">Зашифровать</button>
-    </div>
-}
+<div style="display: flex; justify-content: space-between;">
+    <!-- Форма для шифрования -->
+    <div style="flex: 1; margin-right: 20px;">
+        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+        {
+            <div>
+                <label for="input">Введите строку для шифрования:</label>
+                @Html.TextBoxFor(m => m.Input, new { id = "input" })
+                <button type="submit">Зашифровать</button>
+            </div>
+        }
 
-@if (!string.IsNullOrEmpty(Model.EncryptedString))
-{
-    <div>
-        <h4>Результат шифрования:</h4>
-        <p>@Model.EncryptedString</p>
+        @if (!string.IsNullOrEmpty(Model.EncryptedString))
+        {
+            <div>
+                <h4>Результат шифрования:</h4>
+                <p>@Model.EncryptedString</p>
+            </div>
+        }
     </div>
-}
 
+    <!-- Форма для дешифрования -->
+    <div style="flex: 1;">
+        @using (Html.BeginForm("Decrypt", "Home", FormMethod.Post))
+        {
+            <div>
+                <label for="encryptedString">Введите строку для дешифрования:</label>
+                @Html.TextBoxFor(m => m.StringToDecrypt, new { id = "encryptedString" })
+                <button type="submit">Дешифровать</button>
+            </div>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.DecryptedString))
+        {
+            <div>
+                <h4>Результат дешифрования:</h4>
+                <p>@Model.DecryptedString</p>
+            </div>
+        }
+    </div>
+</div>

@@ -35,7 +35,7 @@ namespace Cyber_dz.Cipher
             GOST_Kuz_Expand_Key(key_1, key_2);
             byte[] decriptBlok = GOST_Kuz_Decrypt(str);
             Console.WriteLine(BitConverter.ToString(decriptBlok).Replace("-", ""));
-            return $"{BitConverter.ToString(decriptBlok).Replace("-", "")} Расшифровано с помощью кузнечика"; // Заглушка
+            return $"{BitConverter.ToString(decriptBlok).Replace("-", "")}"; // Заглушка
         }
 
         // таблица прямого нелинейного преобразования
