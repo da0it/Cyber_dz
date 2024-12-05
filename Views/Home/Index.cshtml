@@ -1,6 +1,13 @@
 ﻿@model Cyber_dz.Models.EncryptionModel
 
-<h2>Шифратор</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Шифратор</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h2>Шифратор</h2>
 
 <form asp-action="Encrypt" method="post">
     <label for="InputText">Введите строку:</label>
@@ -10,7 +17,12 @@
     <select asp-for="CipherType">
         <option value="1">Кузнечик</option>
         <option value="2">Streebog</option>
+        <option value="3">RSA-16384</option>
     </select>
+
+
+    <label for="PublicKey">Публичный ключ (Encrypt RSA)</label>
+    <textarea asp-for="PublicKey"></textarea>
 
     <button type="submit">Зашифровать</button>
 </form>
@@ -19,13 +31,25 @@
     <label for="InputText">Введите зашифрованную строку:</label>
     <input type="text" asp-for="InputText" />
 
+
+
     <label for="CipherType">Выберите шифр:</label>
     <select asp-for="CipherType">
         <option value="1">Кузнечик</option>
+        <option value="2">RSA-16384</option>
+
     </select>
+        <label for="PrivateKey">Приватный ключ (Decrypt RSA)</label>
+        <textarea asp-for="PrivateKey"></textarea>
 
     <button type="submit">Дешифровать</button>
 </form>
+
+
+    <h2>Псевдо-генерация ключей RSA</h2>
+    <form method="post" asp-action="GenerateKeys">
+        <button type="submit">Сгенерировать ключи</button>
+    </form>
 
 @if (!string.IsNullOrEmpty(Model.EncryptedText))
 {
@@ -36,3 +60,19 @@
 {
     <p>Дешифрованный текст: @Model.DecryptedText</p>
 }
+
+    @if (!string.IsNullOrEmpty(Model.PublicKey) && !string.IsNullOrEmpty(Model.PrivateKey))
+    {
+        <div>
+            <h3>Сгенерированные ключи:</h3>
+            <p><strong>Публичный ключ:</strong></p>
+            <textarea readonly>@Model.PublicKey</textarea>
+            <p><strong>Приватный ключ:</strong></p>
+            <textarea readonly>@Model.PrivateKey</textarea>
+        </div>
+    }
+
+
+
+</body>
+</html>

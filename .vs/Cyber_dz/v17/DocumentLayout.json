@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Cyber_dz\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\service\\cipherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:service\\cipherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +19,28 @@
       "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:models\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\cipher\\rsa-16384.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:cipher\\rsa-16384.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\cipher\\kuznechik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:cipher\\kuznechik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\cipher\\streebog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:cipher\\streebog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\views\\home\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:views\\home\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\tests\\kuznechik_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|d:\\cyber_dz\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F1DD6B5-A1CF-49F6-8377-638338DA7730}|Cyber_dz.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,21 +77,90 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Cyber_dz\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Cyber_dz\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T20:29:46.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Cyber_dz\\Models\\HomeController.cs",
+              "RelativeDocumentMoniker": "Models\\HomeController.cs",
+              "ToolTip": "D:\\Cyber_dz\\Models\\HomeController.cs",
+              "RelativeToolTip": "Models\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T02:21:39.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CipherService.cs",
               "DocumentMoniker": "D:\\Cyber_dz\\Service\\CipherService.cs",
               "RelativeDocumentMoniker": "Service\\CipherService.cs",
               "ToolTip": "D:\\Cyber_dz\\Service\\CipherService.cs",
               "RelativeToolTip": "Service\\CipherService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBYAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA1wBkAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T05:06:44.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RSA-16384.cs",
+              "DocumentMoniker": "D:\\Cyber_dz\\Cipher\\RSA-16384.cs",
+              "RelativeDocumentMoniker": "Cipher\\RSA-16384.cs",
+              "ToolTip": "D:\\Cyber_dz\\Cipher\\RSA-16384.cs",
+              "RelativeToolTip": "Cipher\\RSA-16384.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T11:28:11.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Cyber_dz\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Cyber_dz\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T02:21:52.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Kuznechik.cs",
+              "DocumentMoniker": "D:\\Cyber_dz\\Cipher\\Kuznechik.cs",
+              "RelativeDocumentMoniker": "Cipher\\Kuznechik.cs",
+              "ToolTip": "D:\\Cyber_dz\\Cipher\\Kuznechik.cs",
+              "RelativeToolTip": "Cipher\\Kuznechik.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T17:07:42.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Streebog.cs",
               "DocumentMoniker": "D:\\Cyber_dz\\Cipher\\Streebog.cs",
               "RelativeDocumentMoniker": "Cipher\\Streebog.cs",
@@ -96,59 +173,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Cyber_dz\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Cyber_dz\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwAEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T20:29:46.907Z",
+              "DocumentIndex": 7,
+              "Title": "styles.css",
+              "DocumentMoniker": "D:\\Cyber_dz\\Views\\Home\\styles.css",
+              "RelativeDocumentMoniker": "Views\\Home\\styles.css",
+              "ToolTip": "D:\\Cyber_dz\\Views\\Home\\styles.css",
+              "RelativeToolTip": "Views\\Home\\styles.css",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-04T15:54:29.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Kuznechik.cs",
-              "DocumentMoniker": "D:\\Cyber_dz\\Cipher\\Kuznechik.cs",
-              "RelativeDocumentMoniker": "Cipher\\Kuznechik.cs",
-              "ToolTip": "D:\\Cyber_dz\\Cipher\\Kuznechik.cs",
-              "RelativeToolTip": "Cipher\\Kuznechik.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwDUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T17:44:40.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Cyber_dz\\Models\\HomeController.cs",
-              "RelativeDocumentMoniker": "Models\\HomeController.cs",
-              "ToolTip": "D:\\Cyber_dz\\Models\\HomeController.cs",
-              "RelativeToolTip": "Models\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T02:21:39.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Cyber_dz\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Cyber_dz\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T02:21:52.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Cyber_dz\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -162,45 +200,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Cyber_dz\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Cyber_dz\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T03:20:45.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Kuznechik_test.cs",
-              "DocumentMoniker": "D:\\Cyber_dz\\tests\\Kuznechik_test.cs",
-              "RelativeDocumentMoniker": "tests\\Kuznechik_test.cs",
-              "ToolTip": "D:\\Cyber_dz\\tests\\Kuznechik_test.cs",
-              "RelativeToolTip": "tests\\Kuznechik_test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T13:30:41.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Cyber_dz\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Cyber_dz\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-23T02:21:50.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\Cyber_dz\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -208,8 +207,43 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-23T02:28:14.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T02:28:14.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Kuznechik_test.cs",
+              "DocumentMoniker": "D:\\Cyber_dz\\tests\\Kuznechik_test.cs",
+              "RelativeDocumentMoniker": "tests\\Kuznechik_test.cs",
+              "ToolTip": "D:\\Cyber_dz\\tests\\Kuznechik_test.cs",
+              "RelativeToolTip": "tests\\Kuznechik_test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T13:30:41.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Cyber_dz\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Cyber_dz\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T03:20:45.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Cyber_dz\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Cyber_dz\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-23T02:21:50.727Z"
             }
           ]
         }

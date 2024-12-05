@@ -1,0 +1,29 @@
+﻿.form-group {
+    margin-top: 20px; /* Отступ сверху */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+label {
+    display: block; /* Переносит метки на новую строку */
+    margin-bottom: 5px; /* Отступ между меткой и полем ввода */
+}
+
+input, select {
+    width: 100%; /* Задает ширину полей ввода */
+    padding: 8px; /* Добавляет внутренние отступы */
+    box-sizing: border-box; /* Учитывает отступы в ширине */
+}
+
+button {
+    margin-top: 10px; /* Отступ сверху для кнопок */
+    padding: 10px 15px; /* Внутренние отступы для кнопок */
+}
+
+.header {
+    background-color: darkslateblue;
+    height: 177px; /* Убедитесь, что нет лишних символов */
+    font-size: 0.8em;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 900px;
+}
